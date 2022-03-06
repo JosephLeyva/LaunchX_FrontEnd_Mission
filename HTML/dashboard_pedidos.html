@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Lupita</title>
+
+    <!--Normalize CSS-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--Hoja de Estilos propios-->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <img class="logo__imagen" src="img/pastel_logo.png" alt="">
+                    <h1 class="logo__nombre no-margin centrar-texto">Pastelería Lupita</h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="index.html#sabores" class="navegacion__enlace">Sabores</a>
+                    <a href="index.html#adornos" class="navegacion__enlace">Adornos</a>
+                    <a href="formulario_pedido.html#form" class="navegacion__enlace">Hacer Pedido</a>
+                    <a href="dashboard_pedidos.html#dashboard" class="navegacion__enlace">Ver Dashboard</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Tu pastelería desde cualquier lugar</h2>
+            <p class="no-margin">Elige y personaliza tus mejores ideas convertidas en pastel</p>
+        </div>
+    </header>
+
+    <section id="dashboard" class="contenedor">
+        <h1 class="centrar-texto">Dashboard</h1>
+        <div class="contenedor-color">
+            <h3>Total de Pedidos</h3>
+            <p class="contenedor-color__parrafo">4</p>
+        </div>
+
+        <h3>Total de Sabores</h3>
+
+        <table>
+            <tr>
+                <th>Sabor</th>
+                <th>Cantidad</th>
+            </tr>
+            <tr>
+                <td>Tres Leches</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Vainilla</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Cajeta</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>Mango</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Fresa</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Coco</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Oreo</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Manzana</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <h2>Total de Adornos</h2>
+        <table>
+            <tr>
+                <th>Adorno</th>
+                <th>Cantidad</th>
+            </tr>
+            <tr>
+                <td>Velas</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Topper</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Números</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Fresas</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Chispitas</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Avellana</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>Platanos</td>
+                <td>27</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section class="contenedor">
+        <h3>Pedidos Realizados</h3>
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Nombre Cliente</th>
+                <th>Telefono Cliente</th>
+                <th>Ver Pedido</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Maria Anders</td>
+                <td>+52 123-234-4567</td>
+                <td><a href="#">Ver</a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Francisco Chang</td>
+                <td>+52 456-345-2345</td>
+                <td><a href="#">Ver</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Juan Zepeda</td>
+                <td>+52 234-567-4567</td>
+                <td><a href="#">Ver</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Diana Valencia</td>
+                <td>+52 567-345-2345</td>
+                <td><a href="#">Ver</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">Dirección: Paseo Diego, 189, 60º A, CDMX</p>
+        <p class="footer__texto">Teléfono: +52 336-345-2345</p>
+        <p class="footer__texto">Horario de Atención: 10:00 - 21:00 hrs</p>
+    </footer>
+</body>
+
+</html>

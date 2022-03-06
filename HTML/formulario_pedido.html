@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Lupita</title>
+
+    <!--Normalize CSS-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--Hoja de Estilos propios-->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <img class="logo__imagen" src="img/pastel_logo.png" alt="">
+                    <h1 class="logo__nombre no-margin centrar-texto">Pastelería Lupita</h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="index.html#sabores" class="navegacion__enlace">Sabores</a>
+                    <a href="index.html#adornos" class="navegacion__enlace">Adornos</a>
+                    <a href="formulario_pedido.html#form" class="navegacion__enlace">Hacer Pedido</a>
+                    <a href="dashboard_pedidos.html#dashboard" class="navegacion__enlace">Ver Dashboard</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Tu pastelería desde cualquier lugar</h2>
+            <p class="no-margin">Elige y personaliza tus mejores ideas convertidas en pastel</p>
+        </div>
+    </header>
+    <h2 id="form" class="centrar-texto">Formulario</h2>
+    <form action="" class="formulario">
+        <fieldset>
+            <h3>Datos Personales</h3>
+            
+            <div class="campo">
+                <label for="">Nombre</label>
+                <input class="input-text" type="text" placeholder='Ingrese su nombre'>
+            </div>
+            <div class="campo">
+                <label for="">Teléfono</label>
+                <input class="input-text" type="tel" name="" id="" placeholder="Ingrese su teléfono">
+            </div>
+            <div class="campo">
+                <label for="">Correo Electrónico</label>
+                <input class="input-text" type="email" name="" id="" placeholder="Ingrese su Correo">
+            </div>
+            <h3>Datos del Pastel</h3>
+            <h4>Elige tu Sabor</h4>
+            <p>Puedes elegir varios</p>
+            <input type="checkbox" name="pastel" value="Tres Leches">Tres Leches<br>
+            <input type="checkbox" name="pastel" value="Vainilla"> Vainilla <br>
+            <input type="checkbox" name="pastel" value="Cajeta"> Cajeta <br>
+            <input type="checkbox" name="pastel" value="Chocolate"> Chocolate <br>
+            <input type="checkbox" name="pastel" value="Mango"> Mango <br>
+            <input type="checkbox" name="pastel" value="Fresa"> Fresa <br>
+            <input type="checkbox" name="pastel" value="Coco"> Coco <br>
+            <input type="checkbox" name="pastel" value="Oreo"> Oreo <br>
+            <input type="checkbox" name="pastel" value="Manzana"> Manzana <br>
+
+            <h4>Elige tus Adornos</h4>
+            <p>Puedes elegir varios</p>
+            <input type="checkbox" name="adornos" value="Velas">Velas<br>
+            <input type="checkbox" name="adornos" value="Topper"> Topper <br>
+            <input type="checkbox" name="adornos" value="Números"> Números <br>
+            <input type="checkbox" name="adornos" value="Fresas"> Fresas <br>
+            <input type="checkbox" name="adornos" value="Chispitas"> Chispitas <br>
+            <input type="checkbox" name="adornos" value="Avellana"> Avellana <br>
+
+            <input class="boton w-sm-100" type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    <footer class="footer">
+        <p class="footer__texto">Dirección: Paseo Diego, 189, 60º A, CDMX</p>
+        <p class="footer__texto">Teléfono: +52 336-345-2345</p>
+        <p class="footer__texto">Horario de Atención: 10:00 - 21:00 hrs</p>
+    </footer>
+</body>
+
+</html>
